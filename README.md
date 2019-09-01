@@ -1,3 +1,7 @@
+# These are the files associated with a Udemy course that I am taking to improve my understanding of JavaScript"
+
+------------------------------------------------------------
+
 # Course Material and FAQ for my Complete JavaScript Course
 
 This repo contains starter files and the finished project files for all the projects contained in the course.
