@@ -12,3 +12,26 @@ In the end, John would like to have 2 arrays:
 
 Note: To calculate 20% of a value, simply multiply 20/100 = 0.2
 */
+
+var bills = [20, 48, 268]
+
+function calculateTip (bill){
+    if (bill < 50) {
+        return bill * .2;
+    } else if (bill >= 50 && bill < 200 ) {
+        return bill * .15;
+    } else {
+        return bill * .10; 
+    }
+}
+
+var tips = [calculateTip(bills[0]),
+            calculateTip(bills[1]),
+            calculateTip(bills[2])];
+
+var finalBills = [bills[0] + tips[0],
+                  bills[1] + tips[1],
+                  bills[2] + tips[2]];
+
+console.log(tips);
+console.log(finalBills);
