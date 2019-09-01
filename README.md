@@ -1,4 +1,4 @@
-# These are the files associated with a Udemy course that I am taking to improve my understanding of JavaScript"
+# These are the files associated with a Udemy course that I am taking to improve my understanding of JavaScript
 
 ------------------------------------------------------------
 
